@@ -1,0 +1,6 @@
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\bin\Debug\MinMax.exe.config
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\bin\Debug\MinMax.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\bin\Debug\MinMax.pdb
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\obj\Debug\MinMax.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\obj\Debug\MinMax.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\MinMax\MinMax\obj\Debug\MinMax.pdb
