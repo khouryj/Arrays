@@ -1,0 +1,6 @@
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\bin\Debug\ArrayFizzBuzz.exe.config
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\bin\Debug\ArrayFizzBuzz.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\bin\Debug\ArrayFizzBuzz.pdb
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\obj\Debug\ArrayFizzBuzz.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\obj\Debug\ArrayFizzBuzz.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\ArrayFizzBuzz\ArrayFizzBuzz\obj\Debug\ArrayFizzBuzz.pdb
