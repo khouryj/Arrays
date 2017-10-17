@@ -1,0 +1,5 @@
+C:\Users\eahscs\Documents\GitHub\Arrays\Dedupe\Dedupe\bin\Debug\Dedupe.exe.config
+C:\Users\eahscs\Documents\GitHub\Arrays\Dedupe\Dedupe\bin\Debug\Dedupe.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\Dedupe\Dedupe\bin\Debug\Dedupe.pdb
+C:\Users\eahscs\Documents\GitHub\Arrays\Dedupe\Dedupe\obj\Debug\Dedupe.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\Dedupe\Dedupe\obj\Debug\Dedupe.pdb
