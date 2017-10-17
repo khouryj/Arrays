@@ -1,0 +1,5 @@
+C:\Users\eahscs\Documents\GitHub\Arrays\UniqueDigits\UniqueDigits\bin\Debug\UniqueDigits.exe.config
+C:\Users\eahscs\Documents\GitHub\Arrays\UniqueDigits\UniqueDigits\bin\Debug\UniqueDigits.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\UniqueDigits\UniqueDigits\bin\Debug\UniqueDigits.pdb
+C:\Users\eahscs\Documents\GitHub\Arrays\UniqueDigits\UniqueDigits\obj\Debug\UniqueDigits.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\UniqueDigits\UniqueDigits\obj\Debug\UniqueDigits.pdb
