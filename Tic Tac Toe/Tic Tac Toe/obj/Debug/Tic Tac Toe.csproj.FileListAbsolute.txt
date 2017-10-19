@@ -1,0 +1,6 @@
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe.config
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.pdb
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.exe
+C:\Users\eahscs\Documents\GitHub\Arrays\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.pdb
