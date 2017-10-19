@@ -99,7 +99,23 @@ namespace Tic_Tac_Toe
                 {
                     Console.Write("\n\nPlease enter a valid move. ");
                     input = Console.ReadLine();
-
+                    if (!validN.Contains(input[0]) || !validL.Contains(input[1]))
+                    {
+                        valid = false;
+                        while (!valid)
+                        {
+                            Console.Write("\n\nPlease enter a valid move. ");
+                            input = Console.ReadLine();
+                            if (!validN.Contains(input[0]) || !validL.Contains(input[1]))
+                            {
+                                valid = false;
+                            }
+                            else
+                            {
+                                valid = true;
+                            }
+                        }
+                    }
                     moveR = Convert.ToInt32(input[0].ToString());
                     if (input[1] == 'A' || input[1] == 'a')
                     {
