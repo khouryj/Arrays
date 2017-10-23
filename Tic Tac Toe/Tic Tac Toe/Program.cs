@@ -17,6 +17,7 @@ namespace Tic_Tac_Toe
         static bool valid = true;
         static int moveR = 0;
         static int moveC = 0;
+        static bool XWin, OWin, allFilled;
 
         static void Main(string[] args)
         {
@@ -24,6 +25,26 @@ namespace Tic_Tac_Toe
             while (!gameOver)
             {
                 update();
+            }
+            Console.Write("\n\nGame Over! ");
+            if (XWin)
+            {
+                Console.Write("X Wins!");
+            }
+            else if (OWin)
+            {
+                Console.Write("O Wins!");
+            }
+            else
+            {
+                Console.Write("It's A Tie!");
+            }
+
+            Console.Write("\nWould you like to play again(Y or N)? ");
+            input = Console.ReadLine().ToLower();
+            if (input == "y")
+            {
+                Main(args);
             }
         }
 
@@ -44,6 +65,12 @@ namespace Tic_Tac_Toe
                     board[i, j] = " _ ";
                 }
             }
+
+            gameOver = false;
+            allFilled = true;
+            XWin = false;
+            OWin = false;
+            currentP = "X";
         }
 
         static void update()
@@ -147,6 +174,91 @@ namespace Tic_Tac_Toe
             else
             {
                 currentP = "X";
+            }
+
+            allFilled = true;
+            for (int i = 0; i < board.GetLength(0); i++)
+            {
+                for (int j = 0; j < board.GetLength(1); j++)
+                {
+                     if (board[i, j] == " _ ")
+                     {
+                         allFilled = false;
+                     }
+                 }
+            }
+
+            XWin = false;
+            OWin = false;
+            if (board[1, 1] == " X " && board[1, 2] == " X " && board[1, 3] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[2, 1] == " X " && board[2, 2] == " X " && board[2, 3] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[3, 1] == " X " && board[3, 2] == " X " && board[3, 3] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[1, 1] == " X " && board[2, 1] == " X " && board[3, 1] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[1, 2] == " X " && board[2, 2] == " X " && board[3, 2] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[1, 3] == " X " && board[2, 1] == " X " && board[3, 2] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[1, 1] == " X " && board[2, 2] == " X " && board[3, 3] == " X ")
+            {
+                XWin = true;
+            }
+            else if (board[3, 1] == " X " && board[2, 2] == " X " && board[1, 3] == " X ")
+            {
+                XWin = true;
+            }
+
+            if (board[1, 1] == " O " && board[1, 2] == " O " && board[1, 3] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[2, 1] == " O " && board[2, 2] == " O " && board[2, 3] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[3, 1] == " O " && board[3, 2] == " O " && board[3, 3] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[1, 1] == " O " && board[2, 1] == " O " && board[3, 1] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[1, 2] == " O " && board[2, 2] == " O " && board[3, 2] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[1, 3] == " O " && board[2, 1] == " O " && board[3, 2] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[1, 1] == " O " && board[2, 2] == " O " && board[3, 3] == " O ")
+            {
+                OWin = true;
+            }
+            else if (board[3, 1] == " O " && board[2, 2] == " O " && board[1, 3] == " O ")
+            {
+                OWin = true;
+            }
+
+            if (XWin || OWin || allFilled)
+            {
+                gameOver = true;
             }
         }
     }
